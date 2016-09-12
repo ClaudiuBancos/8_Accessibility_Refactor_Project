@@ -6,6 +6,25 @@ h2.hidden,
 }
 
 fieldset {
+  display: block
+}
+
+#legend1,
+#legend2 {
+  display: block;
+}
+
+#legend1 {
+  width: 120px;
+  margin-left: calc(50% - 60px);
+}
+
+#legend2 {
+  width: 204px;
+  margin-left: calc(50% - 102px);
+}
+
+fieldset {
   border: none;
 }
 

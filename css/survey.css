@@ -1,0 +1,57 @@
+/* Survey page styles */
+
+h2.hidden,
+.hidden {
+  display: none;
+}
+
+fieldset {
+  border: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  border: 2px solid blue;
+}
+
+.radio:focus {
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.photo {
+  width: 60%;
+  padding: 10px;
+}
+
+.container {
+  color: white;
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.radio_label {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.newsletter .container {
+  text-align: right;
+  margin-top: 25px;
+}
+
+.newsletter h3 {
+  display: inline;
+}
+
+
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}
